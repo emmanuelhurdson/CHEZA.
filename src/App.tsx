@@ -9,7 +9,7 @@ import { AboutPage } from "./components/AboutPage";
 import { LoginPage } from "./components/LoginPage";
 import { SignupPage } from "./components/SignupPage";
 import { Event } from "./components/EventCard";
-
+import "./styles.css"; // Ensure styles are imported
 type Page =
   | "home"
   | "events"

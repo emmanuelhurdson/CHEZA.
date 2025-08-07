@@ -193,9 +193,7 @@ export function SubmitEventPage({
                 {submittedEvent && (
                   <Button
                     variant="outline"
-                    onClick={() =>
-                      onNavigate?.("event-detail", submittedEvent.id)
-                    }
+                    onClick={() => onNavigate?.("event-detail")}
                     className="w-full"
                   >
                     View Your Event
